@@ -45,17 +45,17 @@ An e-commerce website built using the MERN stack (MongoDB, Express.js, React.js,
    cd E-commerce-Clothes
 
 2.**Setting up the Frontend**
-   cd frontend
-   npm install
-   npm start
+   - cd frontend
+   - npm install
+   - npm start
 
 3.**Setting up the Backend**
-   cd ../backend
-   npm install
-   Create a .env file in the backend directory with the following environment variables:
-       MONGO_URI=your-mongodb-connection-string
-       JWT_SECRET=your-jwt-secret
-   npm start
+   - cd ../backend
+   - npm install
+   - Create a .env file in the backend directory with the following environment variables:
+       - MONGO_URI=your-mongodb-connection-string
+       - JWT_SECRET=your-jwt-secret
+   - npm start
 
 4.**Connecting Frontend and Backend**
       - Ensure that the front-end API calls (e.g., for login, product management) point to 
